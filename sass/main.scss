@@ -13,3 +13,39 @@ nav{
 .btn{
     background: white;
 }
+
+.container{
+    margin: 0 auto;
+}
+
+.no-gutter>[class^="col-"]{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.fwCard{
+    border: 1px solid gray;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.prodName{
+    color: white;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 10px;
+    background: gray;
+    text-align: center;
+}
+
+.prodDesc{
+    padding: 10px;
+
+}
+
+.prodType{
+    padding: 0 10px;
+    padding-bottom: 10px;
+    font-size: .8em;
+
+}
