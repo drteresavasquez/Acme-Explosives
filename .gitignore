@@ -9,3 +9,4 @@ time-info.js
 javascripts/test-colors.js
 javascripts/event-listeners.js
 templates/*
+node_modules/*

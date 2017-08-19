@@ -5,31 +5,31 @@
             "category": 0,
             "name": "personal",
             "description": "Fireworks intended for recreational use during holiday celebrations"
-        }
+        },
         {
             "id": 2,
             "category": 0,
             "name": "business",
             "description": "Fireworks intended for recreational use during holiday celebrations"
-        }
+        },
         {
             "id": 3,
             "category": 0,
             "name": "recreational",
             "description": "Fireworks intended for recreational use during holiday celebrations"
-        }
+        },
         {
             "id": 4,
             "category": 1,
             "name": "personal",
             "description": "1Fireworks intended for recreational use during holiday celebrations"
-        }
+        },
         {
             "id": 5,
             "category": 1,
             "name": "business",
             "description": "1Fireworks intended for recreational use during holiday celebrations"
-        }
+        },
         {
             "id": 6,
             "category": 1,

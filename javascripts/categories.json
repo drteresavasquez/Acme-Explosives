@@ -1,11 +1,11 @@
 {
     "categories": [
         {
-            "id": 0,
+            "id": 1,
             "name": "Fireworks"
         },
         {
-            "id": 1,
+            "id": 2,
             "name": "Demolition"
         }
     ]
