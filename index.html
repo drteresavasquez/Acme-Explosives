@@ -8,7 +8,8 @@ Once all data is loaded, you need to display the products in a Bootstrap grid. E
 	<head>
 		<title>Acme Explosives!</title>
 		<!-- STYLESHEETS -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<!-- END STYLESHEETS -->
 	</head>
@@ -17,39 +18,37 @@ Once all data is loaded, you need to display the products in a Bootstrap grid. E
 			<!-- NAVIGATION START -->
 
 
-	<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-		<a class="navbar-brand" href="#">ACME EXPLOSIVES</a>
-			<div>
-				<ul class="navbar-nav mr-auto"></ul>
-					<button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							Select an Explosive Category!
+	<nav class="navbar navbar-dark bg-primary">
+			<a class="navbar-brand" href="#">ACME EXPLOSIVES</a>
+			<div class="btn-group">
+					<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Select a category to view items in our catalog
 					</button>
-
 					<div class="dropdown-menu dropdown-menu-right">
-						<button class="dropdown-item" type="button" id="1">Fireworks</button>
-						<button class="dropdown-item" type="button" id="2">Demolition</button>
+					  <button class="dropdown-item" type="button" id="1" value="Fireworks">Fireworks</button>
+					  <button class="dropdown-item" type="button" id="2" value="Explosives">Explosives</button>
 					</div>
-				  </nav>
-			  <!-- NAVIGATION END -->
-			
-			<!-- CONTAINER START -->
-			  <div class="container">
-
-
-
-
-		  </div>
-	<!-- CONTAINER END -->
-
+				  </div>
+					  </nav>
+				  <!-- NAVIGATION END -->
+				
+				<!-- CONTAINER START -->
+				<div class="container">
+					<div id="content">
+							<h1>Select a category from the dropdown to view available products</h1>
+					</div>
+						
+				</div>
+				<!-- CONTAINER END -->
+					
 
 <!-- SCRIPTS -->
 		<!-- JQUERY -->
-		<script
-		  src="http://code.jquery.com/jquery-3.2.1.min.js"
-		  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-		  crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<!-- BOOTSTRAP -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
 		<script src="dist/app.js"></script>
 <!-- END SCRIPTS -->
